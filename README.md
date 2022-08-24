@@ -1,5 +1,7 @@
 # LeaderBoard
 
+This is is a simple Leaderboard project that lists the leaders and their score of a certain task using the leaderboard API and allows the user to enter their score.
+
 ## Built With
 
 - HTML
@@ -52,4 +54,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENCE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
