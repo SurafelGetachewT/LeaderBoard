@@ -1,120 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: "Black Ops One", cursive;
-    font-size: 65%;
+  font-family: "Black Ops One", cursive;
+  font-size: 65%;
 }
 
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .box .main-title {
-    font-size: 6.5rem;
-    padding-left: 4rem;
-    padding-top: 4rem;
-    padding-bottom: 10rem;
-    color: rgb(15, 14, 14);
-    letter-spacing: 0.1em;
+  font-size: 6.5rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  color: rgb(15, 14, 14);
+  letter-spacing: 0.1em;
 }
 
 .main-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .table-container {
-    font-size: 4rem;
-    font-weight: 500;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
 .intro-score {
-    display: flex;
-    padding-bottom: 4vh;
-    gap: 8rem;
+  display: flex;
+  padding-bottom: 4vh;
+  gap: 8rem;
 }
 
 .score-title {
-    font-size: 4rem;
-    font-weight: 500;
-    color: black;
-    letter-spacing: 0.1em;
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 0.1em;
 }
 
 .btn {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-left: auto;
-    border-radius: 15px;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  letter-spacing: 0.1em;
 }
 
 .list-scores {
-    height: 40rem;
-    font-size: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    overflow: hidden;
-    overflow-y: scroll;
-    background-color: #fff;
-    text-transform: uppercase;
+  height: 40rem;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #fff;
+  text-transform: uppercase;
 }
 
 li {
-    padding: 10px 20px;
-    margin: 5px 0;
-    list-style: none;
-    display: flex;
-    color: black;
-    transition: 0.5s;
+  padding: 10px 20px;
+  margin: 5px 0;
+  list-style: none;
+  display: flex;
+  color: black;
+  transition: 0.5s;
 }
 
 li:nth-child(odd) {
-    background-color: rgba(97, 97, 100, 0.89);
+  background-color: rgba(97, 97, 100, 0.89);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 5rem;
 }
 
 input {
-    font-size: 2rem;
-    border-radius: 6px;
-    padding: 1rem;
-    color: #d4f3f5;
-    background-color: #0511066c;
+  font-size: 2rem;
+  border-radius: 6px;
+  padding: 1rem;
+  color: #d4f3f5;
+  background-color: #0511066c;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .input-num::-webkit-outer-spin-button,
 .input-num::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 ::placeholder {
-    color: #d4f3f5;
-    opacity: 1;
+  color: #d4f3f5;
+  opacity: 1;
 }
 
 .add-btn {
-    margin-left: auto;
+  margin-left: auto;
 }
