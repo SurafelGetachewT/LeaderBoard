@@ -7,14 +7,15 @@
 }
 
 html {
-  font-family: "Black Ops One", cursive;
-  font-size: 65%;
+  font-family: "Black Ops One", Arial, Helvetica, sans-serif;
+  font-size: 60%;
 }
 
 body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  background-color: rgb(168, 146, 23);
 }
 
 .box .main-title {
@@ -22,8 +23,45 @@ body {
   padding-left: 4rem;
   padding-top: 4rem;
   padding-bottom: 10rem;
-  color: rgb(15, 14, 14);
+  color: #fff;
   letter-spacing: 0.1em;
+}
+
+.lightbar {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 120px;
+  border-radius: 20px;
+  background: rgb(168, 146, 23);
+  z-index: 1;
+  box-shadow:
+    0 0 20px rgb(92, 39, 4),
+    0 0 40px rgb(23, 4, 92),
+    0 0 80px rgb(23, 4, 92);
+  animation: animatelightbar 6s alternate-reverse infinite;
+}
+
+@keyframes animatelightbar {
+  0%,
+  5% {
+    transform: scaleY(0) translateX(0);
+  }
+
+  10% {
+    transform: scaleY(1) translateX(0);
+  }
+
+  90% {
+    transform: scaleY(1) translateX(calc(550px - 20px));
+  }
+
+  95%,
+  100% {
+    transform: scaleY(0) translateX(calc(550px - 20px));
+  }
 }
 
 .main-section {
@@ -58,18 +96,27 @@ body {
   padding: 1rem 2rem;
   cursor: pointer;
   letter-spacing: 0.1em;
+  background-color: #0972388f;
+  border: #e6ece593 solid 0.2rem;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  background-color: rgba(54, 0, 0, 0.527);
+  color: rgb(12, 204, 86);
 }
 
 .list-scores {
-  height: 40rem;
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
   overflow: hidden;
   overflow-y: scroll;
-  background-color: #fff;
-  text-transform: uppercase;
+  background-color: rgb(141, 22, 22);
 }
 
 li {
